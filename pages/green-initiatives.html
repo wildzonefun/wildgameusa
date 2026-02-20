@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Green Initiatives — Green USA</title>
+<meta name="description" content="Explore current green initiatives and sustainability programs across the USA." />
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="../assets/css/style.css" />
+<script defer src="../assets/js/main.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header" role="banner">
+  <div class="container nav-wrap">
+    <div class="brand">
+      <img src="../assets/img/logo.svg" alt="Green USA logo" class="logo" style="width:40px;height:auto;" />
+      <span class="brand-name">Green USA</span>
+    </div>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" role="navigation" aria-label="Primary">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="sustainable-living.html">Sustainable Living</a></li>
+        <li><a href="eco-travel.html">Eco Travel</a></li>
+        <li><a href="renewables.html">Renewables</a></li>
+        <li class="more">
+          <button class="more-btn" aria-haspopup="true" aria-expanded="false">More</button>
+          <ul class="dropdown">
+            <li><a href="green-initiatives.html">Green Initiatives</a></li>
+            <li><a href="recycling.html">Recycling Guide</a></li>
+            <li><a href="green-cities.html">Green Cities</a></li>
+            <li><a href="conservation.html">Wildlife Conservation</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="grants.html">Grants & Programs</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="disclaimer.html">Disclaimer</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+  <section class="section">
+    <div class="container prose">
+      <h1>Green Initiatives</h1>
+      <p>Discover the latest sustainability initiatives driving change across the USA.</p>
+      <p>Content coming soon...</p>
+      <h2>Get Involved</h2>
+      <p>Know of a local initiative we should feature? Send us the details.</p>
+      <form id="gi-form" class="newsletter" onsubmit="event.preventDefault(); this.style.display='none'; document.getElementById('gi-success').style.display='block';">
+        <label class="sr-only" for="gi-name">Name</label>
+        <input id="gi-name" placeholder="Your name" required />
+        <label class="sr-only" for="gi-email">Email</label>
+        <input id="gi-email" type="email" placeholder="Your email" required />
+        <button type="submit">Submit Initiative</button>
+      </form>
+      <div id="gi-success" class="callout" style="display:none; margin-top:16px">
+        <h3 style="margin-top:0">Thank you!</h3>
+        <p style="margin-bottom:0">We have received your submission and will review it shortly.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer" role="contentinfo">
+  <div class="container footer-grid">
+    <section>
+      <h3>About Green USA</h3>
+      <p>Educational hub for sustainable living and travel in the USA.</p>
+    </section>
+    <section>
+      <h3>Quick Links</h3>
+      <ul class="plain">
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="disclaimer.html">Disclaimer</a></li>
+      </ul>
+    </section>
+  </div>
+  <div class="container copy"><p>© 2025 Green USA.</p></div>
+</footer>
+<button class="to-top" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+</body>
+</html>

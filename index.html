@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Mindful Roam — Stories, Guides & Tools</title>
+<meta name="description" content="Curated resources for mindful travel. Explore destinations, read inspiring stories, and use our eco-travel tools." />
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<style>
+  :root {
+    --primary: #4a6741;
+    --secondary: #bc6c25;
+    --bg: #f9f7f2;
+    --text: #2c3e50;
+    --surface: #ffffff;
+    --accent: #e9edc9;
+  }
+  body { background-color: var(--bg); color: var(--text); font-family: 'Georgia', serif; }
+  .site-header { background: var(--surface); border-bottom: 1px solid #e0e0e0; }
+  .brand-name { font-family: 'Helvetica Neue', sans-serif; font-weight: 700; color: var(--primary); letter-spacing: -0.5px; }
+  .nav a { color: var(--text); font-weight: 500; }
+  .nav a:hover { color: var(--secondary); }
+  .hero { background: var(--bg); padding: 4rem 0; }
+  .badge { background: var(--accent); color: var(--primary); padding: 4px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase; }
+  .btn { background: var(--primary); border: none; padding: 0.8rem 1.5rem; border-radius: 4px; color: white; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9rem; transition: background 0.3s; display: inline-block; text-decoration: none; }
+  .btn:hover { background: var(--secondary); }
+  .btn.secondary { background: transparent; border: 2px solid var(--primary); color: var(--primary); }
+  .btn.secondary:hover { background: var(--primary); color: white; }
+  .site-footer { background: #283618; color: #fefae0; padding: 3rem 0; }
+  .site-footer h3 { color: var(--accent); }
+  .site-footer a { color: #fefae0; opacity: 0.8; }
+  .site-footer a:hover { opacity: 1; text-decoration: underline; }
+</style>
+<script defer src="assets/js/main.js"></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Mindful Roam", "url": "https://example.com/", "potentialAction": {"@type": "SearchAction", "target": "https://example.com/search?q={query}", "query-input": "required name=query"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Mindful Roam", "url": "https://example.com/", "logo": "https://example.com/assets/img/favicon.svg", "sameAs": []}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header" role="banner">
+  <div class="container nav-wrap">
+    <div class="brand">
+      <img src="assets/img/logo.svg" alt="Mindful Roam logo" class="logo" style="width:40px;height:auto;" />
+      <span class="brand-name">Mindful Roam</span>
+    </div>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" role="navigation" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/stories.html">Stories</a></li>
+        <li><a href="pages/guides.html">Guides</a></li>
+        <li><a href="pages/tools.html">Tools</a></li>
+        <li class="more">
+          <button class="more-btn" aria-haspopup="true" aria-expanded="false">More</button>
+          <ul class="dropdown">
+            <li><a href="pages/community.html">Community</a></li>
+            <li><a href="pages/destinations.html">Destinations</a></li>
+            <li><a href="pages/gear.html">Eco Gear</a></li>
+            <li><a href="pages/photography.html">Photography</a></li>
+            <li><a href="pages/wellness.html">Wellness</a></li>
+            <li><a href="pages/newsletter.html">Newsletter</a></li>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+            <li><a href="pages/privacy.html">Privacy</a></li>
+            <li><a href="pages/terms.html">Terms</a></li>
+            <li><a href="pages/disclaimer.html">Disclaimer</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+
+<section class="hero">
+  <div class="container wrap">
+    <div>
+      <span class="badge">Explore · Connect · Sustain</span>
+      <h1 class="title">Wander with Purpose.</h1>
+      <p>Discover the art of mindful travel. We provide immersive stories, practical guides, and essential tools for the modern, conscious explorer.</p>
+      <div class="cta">
+        <a class="btn" href="pages/stories.html">Read Stories</a>
+        <a class="btn secondary" href="pages/tools.html">Use Tools</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="cover">
+        <img src="assets/img/new zealand.jpg" alt="Traveler overlooking a mindful landscape" style="width:100%;height:auto;border-radius:6px;" />
+      </div>
+      <div class="pad">
+        <h3>Featured Journey</h3>
+        <p><strong>The Slow Route:</strong> Why taking the train through the Rockies changes how you see the world. <a href="#">Read more →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="kicker">Curated Resources</h2>
+    <div class="grid cols-3">
+      <article class="card">
+        <div class="cover">
+          <img src="assets/img/Bali, indonesia.jpeg" alt="Journal and camera on a wooden table" style="width:100%;height:auto;border-radius:6px;" />
+        </div>
+        <div class="pad">
+          <h3>Stories</h3>
+          <p>Personal narratives from the road. Immersion, culture, and the people we meet.</p>
+          <p><a href="pages/stories.html">Read Stories →</a></p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="cover">
+          <img src="assets/img/Travel9.jpg" alt="Map and compass" style="width:100%;height:auto;border-radius:6px;" />
+        </div>
+        <div class="pad">
+          <h3>Guides</h3>
+          <p>Deep dives into destinations. Where to stay, eat, and explore responsibly.</p>
+          <p><a href="pages/guides.html">View Guides →</a></p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="cover">
+          <img src="assets/img/Travel1.jpg" alt="Digital tools for travel" style="width:100%;height:auto;border-radius:6px;" />
+        </div>
+        <div class="pad">
+          <h3>Tools</h3>
+          <p>Carbon calculators, packing checklists, and visa requirements.</p>
+          <p><a href="pages/tools.html">Use Tools →</a></p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer" role="contentinfo">
+  <div class="container footer-grid">
+    <section>
+      <h3>About Mindful Roam</h3>
+      <p>Your companion for conscious exploration. We provide stories, guides, and tools to help you travel meaningfully.</p>
+    </section>
+    <section>
+      <h3>Quick Links</h3>
+      <ul class="plain">
+        <li><a href="pages/privacy.html">Privacy</a></li>
+        <li><a href="pages/terms.html">Terms</a></li>
+        <li><a href="pages/disclaimer.html">Disclaimer</a></li>
+        <li><a href="sitemap.xml">Sitemap</a></li>
+        <li><a href="robots.txt">Robots.txt</a></li>
+      </ul>
+    </section>
+    <section>
+      <h3>Newsletter</h3>
+      <form class="newsletter" onsubmit="return window.fakeSubmit(event)">
+        <label class="sr-only" for="news">Email</label>
+        <input id="news" type="email" placeholder="Your email" required />
+        <button type="submit">Subscribe</button>
+        <p class="form-note">Demo — add backend to collect data.</p>
+      </form>
+    </section>
+  </div>
+  <div class="container copy"><p>© 2025 Mindful Roam.</p></div>
+</footer>
+<button class="to-top" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+</body>
+</html>
